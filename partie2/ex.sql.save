@@ -1,0 +1,8 @@
+--ex1: dans la base de donnée webDevelopment, créer la table languages avec les colonnes:
+	-- id: (type INT, auto incrémenté, clé primaire)
+	-- languages (type VARCHAR)
+CREATE TABLE webDevelopment.languages (
+	id INT(30) AUTO_INCREMENT,
+	PRIMARY KEY(id)
+	)
+
